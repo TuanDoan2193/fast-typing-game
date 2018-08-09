@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  background: rgb(105, 102, 102);
+  box-shadow: 5px 10px #333;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 350;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding: 0rem 1rem;
+  text-align: center;
+}
+
+.game-title {
+  color: #fff;
+  text-align: center;
+  background: rgb(29, 31, 32);
+  height: 10vh;
+  line-height: 10vh;
+  width: 100%;
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+#current-word {
+  text-align: center;
+  font-size: 3rem;
+}
+
+input {
+  width: 30%;
+  height: 35px;
+  text-align: left;
+  margin: auto;
+  display: block;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+#message {
+  display: block;
+  margin-bottom: 30px;
+  height: 50px;
+  text-align: center;
+}
+
+.rule {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0 2rem;
+}
+.rule span {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
