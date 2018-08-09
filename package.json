@@ -1,0 +1,11 @@
+{
+  "name": "fasttypinggame",
+  "version": "1.0.0",
+  "description": "A typing game made with pure HTML, CSS, JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tuan Doan",
+  "license": "MIT"
+}

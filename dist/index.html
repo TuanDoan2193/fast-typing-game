@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="game-title">Fast Typing Game</div>
+    <h4>Type the given word within
+      <span id="seconds">5</span> seconds:</h4>
+    <h2 id="current-word">hello</h2>
+    <input type="text" name="word-input" id="word-input" placeholder="Start typing here..." autofocus>
+    <h3 id="message"></h3>
+    <h3>Time left:
+      <span id="time">0</span>
+    </h3>
+    <h3>Your score:
+      <span id="score">0</span>
+    </h3>
+    <p class="rule">
+      <span>Rule: </span>Type in the word within time limit. To start again, type in the current word.</p>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
